@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JfiNmh/SpcY=",
+  "dgSpecHash": "ZHajrKG3BaQ=",
   "success": true,
-  "projectFilePath": "C:\\source\\my-web-app\\my-web-app\\my-web-app.csproj",
+  "projectFilePath": "C:\\source\\my-web-app\\my-web-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\g.a.gonzalez.pascual\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\g.a.gonzalez.pascual\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0\\microsoft.aspnetcore.jsonpatch.6.0.0.nupkg.sha512",

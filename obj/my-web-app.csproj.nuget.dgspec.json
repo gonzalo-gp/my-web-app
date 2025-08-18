@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\my-web-app\\my-web-app\\my-web-app.csproj": {}
+    "C:\\source\\my-web-app\\my-web-app.csproj": {}
   },
   "projects": {
-    "C:\\source\\my-web-app\\my-web-app\\my-web-app.csproj": {
+    "C:\\source\\my-web-app\\my-web-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\my-web-app\\my-web-app\\my-web-app.csproj",
+        "projectUniqueName": "C:\\source\\my-web-app\\my-web-app.csproj",
         "projectName": "my-web-app",
-        "projectPath": "C:\\source\\my-web-app\\my-web-app\\my-web-app.csproj",
+        "projectPath": "C:\\source\\my-web-app\\my-web-app.csproj",
         "packagesPath": "C:\\Users\\g.a.gonzalez.pascual\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\my-web-app\\my-web-app\\obj\\",
+        "outputPath": "C:\\source\\my-web-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\g.a.gonzalez.pascual\\AppData\\Roaming\\NuGet\\NuGet.Config",
