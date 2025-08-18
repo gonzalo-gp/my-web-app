@@ -13,5 +13,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
   </ItemGroup>
 
+ <ItemGroup>
+   <Content Update="src\Views\Home\Index.cshtml">
+     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+   <Content Update="src\Views\Shared\_Layout.cshtml">
+     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+ </ItemGroup>
   
 </Project>
