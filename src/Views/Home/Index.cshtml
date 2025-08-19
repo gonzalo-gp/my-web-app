@@ -1,5 +1,18 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+
 <h1>Welcome to My Web App</h1>
 <p>This is the home page of the application.</p>
+<button id="notifyBtn">Get Notification</button>
+<p id="notification"></p>
+
+<script>
+    document.getElementById('notifyBtn').addEventListener('click', function() {
+        fetch('/Home/GetNotification', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('notification').innerText = data.message;
+            });
+    });
+</script>

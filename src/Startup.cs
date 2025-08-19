@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MyWebApp.Services;
 
 namespace MyWebApp
 {
@@ -19,6 +20,7 @@ namespace MyWebApp
         {
             // Register application services
             services.AddControllersWithViews();
+            services.AddScoped<NotificationService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -47,5 +49,6 @@ namespace MyWebApp
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+   
     }
 }
