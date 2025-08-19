@@ -34,10 +34,3 @@ Thumbs.db
 # Temporary files
 temp/
 tmp/
-obj/my-web-app.csproj.nuget.dgspec.json
-obj/project.assets.json
-obj/project.nuget.cache
-obj/Debug/net6.0/my-web-app.AssemblyInfo.cs
-obj/Debug/net6.0/my-web-app.AssemblyInfoInputs.cache
-obj/Debug/net6.0/my-web-app.assets.cache
-obj/Debug/net6.0/my-web-app.GeneratedMSBuildEditorConfig.editorconfig
